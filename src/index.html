@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Webpack Form</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="/bundle.css">
+	</head>
+	<body>
+
+		<div class="form__container">
+			<form action="#" class="form" id="form-1">
+				<p class="form__bubble" id="form-1__bubble">Form sent!</p>
+				<div class="form__box">
+					<div class="form__col">
+						<div class="form__input-box">
+							<label for="email" class="form__label">E-mail</label>
+							<input type="email" id="email" name="email" class="form__input required">
+							<span class="form__msg"></span>
+						</div>
+						<div class="form__input-box">
+							<label for="phone" class="form__label">Phone</label>
+							<input type="tel" id="phone" name="phone" class="form__input required">
+							<span class="form__msg"></span>
+						</div>
+						<div class="form__input-box">
+							<label for="name" class="form__label">Name</label>
+							<input type="text" id="name" name="name" class="form__input">
+							<span class="form__msg"></span>
+						</div>
+					</div>
+					<div class="form__col">
+						<div class="form__input-box">
+							<label for="email" class="form__label">Your message</label>
+							<textarea name="message" id="message" class="form__textarea required"></textarea>
+							<span class="form__msg"></span>
+						</div>
+					</div>
+					<button class="form__btn" id="form__submit">Send</button>
+				</div>
+			</form>
+		</div>
+
+	</body>
+</html>

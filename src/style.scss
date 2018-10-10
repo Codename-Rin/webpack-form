@@ -1,0 +1,41 @@
+body {
+	background-color: #fff;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.test {
+	width: 100px;
+	height: 20px;
+	background-color: #a0c;
+}
+
+.tekst {
+	font-size: 12px;
+	margin: 0;
+	line-height: 20px;
+	word-wrap: none;
+	word-break: keep-all;
+	text-overflow: clip;
+	opacity: 0;
+	color: #ccc;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+
+	@media (min-width: 1200px) {
+		width: 1200px;
+	}
+}
+
+h1 {
+	color: red;
+}
+
+@import './scss/form';
