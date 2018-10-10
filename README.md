@@ -9,4 +9,4 @@ and
 ```
 npm start
 ```
-after that should do the trick and launch the project.
+after that open [localhost](http://localhost:3000/) .
